@@ -1,7 +1,10 @@
-Password Generator
+# Password Generator
 
-This algorithm uses Mersenne Twister engine to randomly select characters in the string "base" to build one password with one dot, in constant time complexity.
+This algorithm uses the Mersenne Twister engine to randomly select characters from the string "base" to construct a password with a dot, all in constant time complexity.
 
-To compile this code, add the following command line in your terminal:
+## Usage
 
-g++ *.cpp -o main -std=c++17 && ./main 
+To compile and execute this code, use the following command in your terminal:
+
+```bash
+g++ *.cpp -o main -std=c++17 && ./main
