@@ -1,5 +1,5 @@
-#ifndef PASSWORD_GENERATOR_H
-#define PASSWORD_GENERATOR_H
+#ifndef NODE
+#define NODE
     #include <iostream>
     #include <random>
         std::string generatePassword();

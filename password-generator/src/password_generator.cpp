@@ -1,4 +1,4 @@
-#include "password_generator.h"
+#include "password_generator.hpp"
 
 std::string generatePassword() {
     std::random_device randomNumber;
@@ -11,6 +11,6 @@ std::string generatePassword() {
     std::string password;
     for(size_t i = 1; i < 13 ; ++i) 
         password += base[gap(seed)];
-    password.data()[gapPoint(seed)] = '.';
+    password.at(gapPoint(seed)) = '.';
     return password;
 }
