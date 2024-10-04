@@ -1,5 +1,0 @@
-#include "Files/password_generator.cpp"
-
-int main(int argc, char* argv[]) {
-    std::cout << "Sua senha: " << generatePassword() << std::endl;
-}
